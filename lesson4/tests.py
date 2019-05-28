@@ -1,7 +1,7 @@
 import unittest
-import test_api
-import models
-import privat_api
+from lesson4 import test_api
+from lesson4 import models
+from lesson4 import privat_api
 
 
 class Test(unittest.TestCase):

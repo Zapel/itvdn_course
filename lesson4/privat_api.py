@@ -5,7 +5,7 @@ from lesson4.config import logging, LOGGER_CONFIG
 log = logging.getLogger("PrivatApi")
 fh = logging.FileHandler(LOGGER_CONFIG["file"])
 fh.setLevel(LOGGER_CONFIG["level"])
-fh.setFormatter(LOGGER_CONFIG["formater"])
+fh.setFormatter(LOGGER_CONFIG["formatter"])
 log.addHandler(fh)
 log.setLevel(LOGGER_CONFIG["level"])
 

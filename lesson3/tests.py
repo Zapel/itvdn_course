@@ -1,6 +1,6 @@
 import unittest
-import test_api
-import models
+from lesson3 import test_api
+from lesson3 import models
 
 class Test(unittest.TestCase):
     def setUp(self):
