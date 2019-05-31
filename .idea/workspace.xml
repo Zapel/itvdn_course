@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9372f721-7a9e-4134-a690-2b69c01a49f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lesson4/golden-eye.db" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/golden-eye.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson5/golden-eye.db" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5/golden-eye.db" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,57 +53,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson4/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson4/test_api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson4/privat_api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson4/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="das://8c46f7fd-a22b-49bf-be70-7b23d966a47d/schema/main/table/xrates">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="46739130-3efa-4315-8add-59b31b3828e8">
+            <state projectRestartId="6ad8a2c9-1409-4076-b40c-7480b9d5964d">
               <filtering>
                 <filter text="" />
               </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8c46f7fd-a22b-49bf-be70-7b23d966a47d/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson5/lesson5_refactored/app.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson5/lesson5_refactored/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson5/lesson5_refactored/api/cbr_api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson5/lesson5_refactored/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson5/lesson5_refactored/api/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,19 +131,16 @@
         <option value="$PROJECT_DIR$/lesson4/privat_api.py" />
         <option value="$PROJECT_DIR$/lesson4/app.log" />
         <option value="$PROJECT_DIR$/lesson3/tests.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
+        <option value="$PROJECT_DIR$/lesson5/lesson5_refactored/api/cbr_api.py" />
+        <option value="$PROJECT_DIR$/lesson5/lesson5_refactored/models.py" />
+        <option value="$PROJECT_DIR$/lesson5/lesson5_refactored/api/__init__.py" />
+        <option value="$PROJECT_DIR$/lesson5/lesson5_refactored/tests.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="107" />
-    <option name="y" value="270" />
+    <option name="x" value="67" />
+    <option name="y" value="27" />
     <option name="width" value="1379" />
     <option name="height" value="810" />
   </component>
@@ -139,6 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,13 +159,43 @@
             </path>
             <path>
               <item name="itvdn_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itvdn_course" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itvdn_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itvdn_course" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson5" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson5_refactored" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itvdn_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itvdn_course" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itvdn_course" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="itvdn_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="itvdn_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="itvdn_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="8c46f7fd-a22b-49bf-be70-7b23d966a47d" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,28 +244,110 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in tests.py (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="itvdn_course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson5/lesson5_refactored" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson5/lesson5_refactored/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xml_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="itvdn_course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson5/xml_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for tests.Test.test_main" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="itvdn_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/lesson4/tests.py&quot;" />
+      <option name="_new_target" value="&quot;tests.Test.test_main&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in tests.py (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="itvdn_course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson5/lesson5_refactored" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lesson5/lesson5_refactored/tests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="itvdn_course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lesson5/tests.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.xml_test" />
+      <item itemvalue="Python.tests" />
+      <item itemvalue="Python tests.Unittests in tests.py" />
+      <item itemvalue="Python tests.Unittests for tests.Test.test_main" />
       <item itemvalue="Python tests.Unittests in tests.py (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests in tests.py (1)" />
+        <item itemvalue="Python.tests" />
+        <item itemvalue="Python.xml_test" />
+        <item itemvalue="Python tests.Unittests in tests.py" />
+        <item itemvalue="Python tests.Unittests for tests.Test.test_main" />
       </list>
     </recent_temporary>
   </component>
@@ -240,48 +363,88 @@
       <updated>1559070867091</updated>
       <workItem from="1559070869724" duration="1751000" />
       <workItem from="1559072700264" duration="1261000" />
+      <workItem from="1559274285180" duration="1253000" />
+      <workItem from="1559276156563" duration="1010000" />
+      <workItem from="1559278221690" duration="486000" />
+      <workItem from="1559334241372" duration="1768000" />
+      <workItem from="1559336046830" duration="285000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_tests_py_(1) - 2019.05.28 at 22h 24m 17s.xml">
+    <history-entry file="Unittests_in_tests_py_(1) - 2019.05.31 at 23h 39m 15s.xml">
       <configuration name="Unittests in tests.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests_py_(1) - 2019.05.28 at 22h 26m 08s.xml">
+    <history-entry file="Unittests_in_tests_py_(1) - 2019.05.31 at 23h 40m 14s.xml">
       <configuration name="Unittests in tests.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests_py_(1) - 2019.05.28 at 22h 27m 00s.xml">
+    <history-entry file="Unittests_in_tests_py_(1) - 2019.05.31 at 23h 41m 19s.xml">
       <configuration name="Unittests in tests.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests_py_(1) - 2019.05.28 at 22h 28m 25s.xml">
+    <history-entry file="Unittests_in_tests_py_(1) - 2019.05.31 at 23h 43m 30s.xml">
       <configuration name="Unittests in tests.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests_py_(1) - 2019.05.28 at 22h 29m 05s.xml">
+    <history-entry file="Unittests_in_tests_py_(1) - 2019.05.31 at 23h 46m 16s.xml">
       <configuration name="Unittests in tests.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests_py_(1) - 2019.05.28 at 22h 32m 50s.xml">
+    <history-entry file="Unittests_in_tests_py_(1) - 2019.05.31 at 23h 49m 32s.xml">
       <configuration name="Unittests in tests.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests_py_(1) - 2019.05.28 at 22h 38m 44s.xml">
+    <history-entry file="Unittests_in_tests_py_(1) - 2019.05.31 at 23h 50m 44s.xml">
       <configuration name="Unittests in tests.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests_py_(1) - 2019.05.28 at 22h 39m 26s.xml">
+    <history-entry file="Unittests_in_tests_py_(1) - 2019.05.31 at 23h 54m 22s.xml">
       <configuration name="Unittests in tests.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests_py_(1) - 2019.05.28 at 22h 46m 40s.xml">
+    <history-entry file="Unittests_in_tests_py_(1) - 2019.05.31 at 23h 55m 36s.xml">
       <configuration name="Unittests in tests.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests_py_(1) - 2019.05.28 at 22h 51m 41s.xml">
+    <history-entry file="Unittests_in_tests_py_(1) - 2019.05.31 at 23h 58m 20s.xml">
       <configuration name="Unittests in tests.py (1)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3012000" />
+    <option name="totallyTimeSpent" value="7814000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18649696" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19867183" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986165" visible="true" weight="0.4002181" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.3293348" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4991699" weight="0.3293348" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5013835" side_tool="true" weight="0.4002181" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.21582733" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18871057" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -295,7 +458,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4991699" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4991699" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5002767" side_tool="true" weight="0.69356596" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -304,25 +467,27 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32927504" />
-    </layout>
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.21582733" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/itvdn_course$Unittests_in_tests_py.coverage" NAME="Unittests in tests.py Coverage Results" MODIFIED="1559071076910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson3" />
+    <SUITE FILE_PATH="coverage/itvdn_course$Unittests_for_tests_Test_test_cdr.coverage" NAME="Unittests for tests.Test.test_cdr Coverage Results" MODIFIED="1559274563833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson5" />
+    <SUITE FILE_PATH="coverage/itvdn_course$Unittests_in_tests_py.coverage" NAME="Unittests in tests.py Coverage Results" MODIFIED="1559274912228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson5" />
     <SUITE FILE_PATH="coverage/itvdn_course$api_privat.coverage" NAME="api_privat Coverage Results" MODIFIED="1559072065997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/itvdn_course$Unittests_for_tests_Test_test_main.coverage" NAME="Unittests for tests.Test.test_main Coverage Results" MODIFIED="1559274718662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson5" />
+    <SUITE FILE_PATH="coverage/itvdn_course$Unittests_for_tests_Test_test_privat.coverage" NAME="Unittests for tests.Test.test_privat Coverage Results" MODIFIED="1559274616085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson5" />
+    <SUITE FILE_PATH="coverage/itvdn_course$tests.coverage" NAME="tests Coverage Results" MODIFIED="1559335999871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson5/lesson5_refactored" />
     <SUITE FILE_PATH="coverage/itvdn_course$log_example.coverage" NAME="log_example Coverage Results" MODIFIED="1559072070996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/itvdn_course$privat_api.coverage" NAME="privat_api Coverage Results" MODIFIED="1559072299546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson4" />
     <SUITE FILE_PATH="coverage/itvdn_course$test_api.coverage" NAME="test_api Coverage Results" MODIFIED="1559072315861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson4" />
-    <SUITE FILE_PATH="coverage/itvdn_course$Unittests_in_tests_py__1_.coverage" NAME="Unittests in tests.py (1) Coverage Results" MODIFIED="1559073099930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson4" />
+    <SUITE FILE_PATH="coverage/itvdn_course$xml_test.coverage" NAME="xml_test Coverage Results" MODIFIED="1559276441372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson5" />
+    <SUITE FILE_PATH="coverage/itvdn_course$Unittests_in_tests_py__1_.coverage" NAME="Unittests in tests.py (1) Coverage Results" MODIFIED="1559336299295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson5/lesson5_refactored" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/api_privat.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8c46f7fd-a22b-49bf-be70-7b23d966a47d/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson3/test_api.py">
@@ -354,43 +519,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lesson4/app.log">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson4/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state>
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson4/app.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://8c46f7fd-a22b-49bf-be70-7b23d966a47d/schema/main/table/xrates">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="46739130-3efa-4315-8add-59b31b3828e8">
-          <filtering>
-            <filter text="" />
-          </filtering>
+    <entry file="file://$PROJECT_DIR$/lesson4/privat_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson4/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson4/privat_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/app.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -403,6 +566,105 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson5/cbr_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson5/app.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson5/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson5/xml_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson5/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson5/lesson5_refactored/config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson5/lesson5_refactored/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson5/lesson5_refactored/api/cbr_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson5/lesson5_refactored/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson5/lesson5_refactored/api/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://8c46f7fd-a22b-49bf-be70-7b23d966a47d/schema/main/table/xrates">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="6ad8a2c9-1409-4076-b40c-7480b9d5964d">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8c46f7fd-a22b-49bf-be70-7b23d966a47d/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson5/lesson5_refactored/app.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
   </component>
 </project>
