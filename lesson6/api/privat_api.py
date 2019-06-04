@@ -1,4 +1,5 @@
-from api import _Api
+# from api import _Api
+from lesson6.api import _Api
 
 class Api(_Api):
     def __init__(self):
@@ -21,7 +22,8 @@ class Api(_Api):
         for e in response_data:
             if e["ccy"] == currency_alias:
                 return float(e["sale"])
-            raise ValueError("Invalid Privat response: USD not found")
+
+        raise ValueError("Invalid Privat response: USD not found")
 
 
 

@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
-import requests
-from api import _Api
+# from api import _Api
+from lesson6.api import _Api
+
 
 class Api(_Api):
     def __init__(self):

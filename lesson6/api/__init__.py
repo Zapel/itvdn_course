@@ -1,7 +1,9 @@
 import traceback
 import requests
-from config import logging, LOGGER_CONFIG
-from models import XRate, peewee_datetime, ApiLog, ErrorLog
+# from config import logging, LOGGER_CONFIG
+# from models import XRate, peewee_datetime, ApiLog, ErrorLog
+from lesson6.config import logging, LOGGER_CONFIG, HTTP_TIMEOUT
+from lesson6.models import XRate, peewee_datetime, ApiLog, ErrorLog
 
 fh = logging.FileHandler(LOGGER_CONFIG["file"])
 fh.setLevel(LOGGER_CONFIG["level"])
@@ -30,8 +32,7 @@ class _Api:
         raise NotImplementedError("_update_rate")
 
     def _send_request(self, url, method, data=None, headers=None):
-        log = ApiLog(request_url=url, request_data=data, request_method=method,
-                     request_headers=headers)
+        log = ApiLog(request_url=url, request_data=data, request_method=method, request_headers=headers)
         try:
             response = self._send(method=method, url=url, headers=headers, data=data)
             log.response_text = response.text
@@ -47,4 +48,9 @@ class _Api:
             log.save()
 
     def _send(self, url, method, data=None, headers=None):
-        return requests.request(method=method, url=url, headers=headers, data=data, timeout=15)
+        return requests.request(method=method, url=url, headers=headers, data=data, timeout=HTTP_TIMEOUT)
+
+
+
+
+
