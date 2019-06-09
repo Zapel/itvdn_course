@@ -9,6 +9,7 @@ import requests
 
 import lesson7.models as models
 import lesson7.api.cbr_api as cbr_api
+import lesson7.api.cryptonatop_api as cryptonator_api
 import lesson7.api.privat_api as privat_api
 import lesson7.api as api
 
@@ -143,6 +144,29 @@ class Test(unittest.TestCase):
         self.assertIn("Connection to api.privatbank.ua timed out", error_log.error)
 
         api.HTTP_TIMEOUT = 15
+
+    def test_cryptonator_uah(self):
+        from_currency = 1000
+        to_currency = 980
+        xrate = models.XRate.get(from_currency=from_currency, to_currency=to_currency)
+        updated_before = xrate.updated
+        self.assertEqual(xrate.rate, 1.0)
+
+        cryptonator_api.Api().update_rate(from_currency, to_currency)
+
+        xrate = models.XRate.get(from_currency=from_currency, to_currency=to_currency)
+        updated_after = xrate.updated
+
+        self.assertGreater(xrate.rate, 150000)
+        self.assertGreater(updated_after, updated_before)
+
+        api_log = models.ApiLog.select().order_by(models.ApiLog.created.desc()).first()
+
+        self.assertIsNotNone(api_log)
+        self.assertEqual(api_log.request_url, "https://api.cryptonator.com/api/ticker/btc-uah")
+        self.assertIsNotNone(api_log.response_text)
+
+        self.assertIn('{"base":"BTC","target":"UAH","price":', api_log.response_text)
 
     if __name__ == '__main__':
         unittest.main()
