@@ -19,6 +19,7 @@ class XRate(_Model):
     to_currency = IntegerField()
     rate = DoubleField()
     updated = DateTimeField(default=peewee_datetime.datetime.now)
+    module = CharField(max_length=100)
 
     def __str__(self):
         return "XRate(%s=>%s): %s" % (self.from_currency, self.to_currency, self.rate)
@@ -50,13 +51,14 @@ class ErrorLog(_Model):
 def init_db():
     XRate.drop_table()
     XRate.create_table()
-    XRate.create(from_currency=840, to_currency=980, rate=1)
-    XRate.create(from_currency=840, to_currency=643, rate=1)
-    XRate.create(from_currency=1000, to_currency=840, rate=1)
-    XRate.create(from_currency=1000, to_currency=980, rate=1)
+    XRate.create(from_currency=840, to_currency=980, rate=1, module="privat_api")
+    XRate.create(from_currency=840, to_currency=643, rate=1, module="cbr_api")
+    XRate.create(from_currency=1000, to_currency=840, rate=1, module="privat_api")
+    XRate.create(from_currency=1000, to_currency=980, rate=1, module="cryptonatop_api")
+    XRate.create(from_currency=1000, to_currency=643, rate=1, module="cryptonatop_api")
 
     for m in (ApiLog, ErrorLog):
-        m.drop_table()
+        # m.drop_table()
         m.create_table()
 
     print("db created!")

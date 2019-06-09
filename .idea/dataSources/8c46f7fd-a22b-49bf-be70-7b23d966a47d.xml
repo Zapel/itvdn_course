@@ -152,13 +152,18 @@
       <DataType>DATETIME|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="40" parent="9" name="xrate_from_currency_to_currency">
+    <column id="40" parent="9" name="module">
+      <Position>6</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="41" parent="9" name="xrate_from_currency_to_currency">
       <ColNames>from_currency
 to_currency</ColNames>
       <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
-    <key id="41" parent="9">
+    <key id="42" parent="9">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
