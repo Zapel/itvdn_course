@@ -1,6 +1,7 @@
 from flask import Flask
 
 app = Flask(__name__)
+print("app=", app)
 
 @app.route("/hello")
 def hello():
@@ -8,5 +9,5 @@ def hello():
 
 # app.run(host="0.0.0.0")
 # app.run()
-app.run(debug=True, port=5001)
+app.run(debug=True, port=5000)
 
