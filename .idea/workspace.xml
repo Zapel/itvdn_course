@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9372f721-7a9e-4134-a690-2b69c01a49f5" name="Default Changelist" comment="" />
+    <list default="true" id="9372f721-7a9e-4134-a690-2b69c01a49f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson11/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/api/cbr_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/api/cryptonatop_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/api/privat_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/controllers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/flask_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/golden-eye.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/runserver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/templates/logs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/templates/xrates.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson10/controllers.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/controllers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson10/golden-eye.db" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/golden-eye.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson10/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/app.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +83,11 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson10/tests.py">
+        <entry file="file://$PROJECT_DIR$/lesson7/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-52">
-              <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+            <state relative-caret-position="-360">
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -74,45 +96,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson10/runserver.py">
+        <entry file="file://$PROJECT_DIR$/lesson7/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson10/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson10/controllers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-457">
-              <folding>
-                <element signature="e#0#66#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson10/flask_app.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson10/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-495">
               <folding>
                 <element signature="e#0#133#0" expanded="true" />
               </folding>
@@ -121,8 +107,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson10/utils.py">
+        <entry file="file://$PROJECT_DIR$/lesson3/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson3/test_api.py">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson3/pure_sql.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson4/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -141,9 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lesson4/tests.py" />
-        <option value="$PROJECT_DIR$/lesson4/test_api.py" />
-        <option value="$PROJECT_DIR$/lesson4/privat_api.py" />
         <option value="$PROJECT_DIR$/lesson4/app.log" />
         <option value="$PROJECT_DIR$/lesson3/tests.py" />
         <option value="$PROJECT_DIR$/lesson5/lesson5_refactored/api/cbr_api.py" />
@@ -155,7 +165,6 @@
         <option value="$PROJECT_DIR$/lesson6/api/privat_api.py" />
         <option value="$PROJECT_DIR$/lesson6/config.py" />
         <option value="$PROJECT_DIR$/lesson6/api/__init__.py" />
-        <option value="$PROJECT_DIR$/lesson6/tests.py" />
         <option value="$PROJECT_DIR$/дщппшт.py" />
         <option value="$PROJECT_DIR$/login.py" />
         <option value="$PROJECT_DIR$/lesson7/api/privat_api.py" />
@@ -165,7 +174,6 @@
         <option value="$PROJECT_DIR$/lesson7/tests.py" />
         <option value="$PROJECT_DIR$/lesson7/models.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/lesson8/flask_app.py" />
         <option value="$PROJECT_DIR$/lesson9/api/__init__.py" />
         <option value="$PROJECT_DIR$/lesson9/api/cryptonatop_api.py" />
         <option value="$PROJECT_DIR$/lesson9/models.py" />
@@ -175,19 +183,36 @@
         <option value="$PROJECT_DIR$/lesson9/vievs.py" />
         <option value="$PROJECT_DIR$/lesson9/templates/xrates.html" />
         <option value="$PROJECT_DIR$/lesson9/utils.py" />
+        <option value="$PROJECT_DIR$/lesson9/__init__.py" />
+        <option value="$PROJECT_DIR$/lesson8/flask_app.py" />
+        <option value="$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask/app.py" />
+        <option value="$PROJECT_DIR$/lesson9/runserver.py" />
         <option value="$PROJECT_DIR$/lesson9/app.py" />
         <option value="$PROJECT_DIR$/lesson9/views.py" />
         <option value="$PROJECT_DIR$/lesson9/controllers.py" />
-        <option value="$PROJECT_DIR$/lesson9/__init__.py" />
-        <option value="$PROJECT_DIR$/lesson9/runserver.py" />
+        <option value="$PROJECT_DIR$/lesson10/controllers.py" />
+        <option value="$PROJECT_DIR$/lesson10/tests.py" />
+        <option value="$PROJECT_DIR$/lesson11/api/__init__.py" />
+        <option value="$PROJECT_DIR$/lesson11/api/cbr_api.py" />
+        <option value="$PROJECT_DIR$/lesson11/api/cryptonatop_api.py" />
+        <option value="$PROJECT_DIR$/lesson11/api/privat_api.py" />
+        <option value="$PROJECT_DIR$/lesson11/app.py" />
+        <option value="$PROJECT_DIR$/lesson11/runserver.py" />
+        <option value="$PROJECT_DIR$/lesson11/templates/xrates.html" />
+        <option value="$PROJECT_DIR$/lesson11/views.py" />
+        <option value="$PROJECT_DIR$/lesson11/controllers.py" />
+        <option value="$PROJECT_DIR$/lesson11/templates/logs.html" />
+        <option value="$PROJECT_DIR$/lesson11/models.py" />
+        <option value="$PROJECT_DIR$/lesson11/tests.py" />
+        <option value="$PROJECT_DIR$/lesson6/tests.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
     <option name="y" value="27" />
-    <option name="width" value="779" />
-    <option name="height" value="824" />
+    <option name="width" value="1030" />
+    <option name="height" value="662" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -207,13 +232,17 @@
             <path>
               <item name="itvdn_course" type="b2602c69:ProjectViewProjectNode" />
               <item name="itvdn_course" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson10" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itvdn_course" type="b2602c69:ProjectViewProjectNode" />
               <item name="itvdn_course" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson10" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itvdn_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itvdn_course" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itvdn_course" type="b2602c69:ProjectViewProjectNode" />
@@ -233,7 +262,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson11" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -241,6 +270,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson11" />
       <recent name="$PROJECT_DIR$/lesson9" />
       <recent name="$PROJECT_DIR$/lesson6" />
     </key>
@@ -257,29 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for tests.Test.test_json_api_uah">
-    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="itvdn_course" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="true" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for tests.Test.test_html_xrates">
     <configuration name="runserver (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="itvdn_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -288,17 +296,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson10/runserver.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson11/runserver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for tests.Test.test_html_xrates" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="itvdn_course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.Test.test_html_xrates&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for tests.Test.test_json_api" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -310,22 +334,9 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;tests.Test.test_json_api&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for tests.Test.test_json_api_uah" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="itvdn_course" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.Test.test_json_api_uah&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -338,6 +349,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;tests.Test.test_xml_api&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
@@ -348,30 +360,30 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/lesson10/tests.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lesson11/tests.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python tests.Unittests in tests.py" />
       <item itemvalue="Python.runserver (1)" />
-      <item itemvalue="Python tests.Unittests for tests.Test.test_xml_api" />
+      <item itemvalue="Python tests.Unittests for tests.Test.test_html_xrates" />
       <item itemvalue="Python tests.Unittests for tests.Test.test_json_api" />
-      <item itemvalue="Python tests.Unittests for tests.Test.test_json_api_uah" />
+      <item itemvalue="Python tests.Unittests for tests.Test.test_xml_api" />
+      <item itemvalue="Python tests.Unittests in tests.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for tests.Test.test_json_api_uah" />
-        <item itemvalue="Python tests.Unittests for tests.Test.test_xml_api" />
-        <item itemvalue="Python tests.Unittests for tests.Test.test_json_api" />
+        <item itemvalue="Python tests.Unittests for tests.Test.test_html_xrates" />
         <item itemvalue="Python tests.Unittests in tests.py" />
         <item itemvalue="Python.runserver (1)" />
+        <item itemvalue="Python tests.Unittests for tests.Test.test_json_api" />
+        <item itemvalue="Python tests.Unittests for tests.Test.test_xml_api" />
       </list>
     </recent_temporary>
   </component>
@@ -397,43 +409,46 @@
       <workItem from="1560093677829" duration="2043000" />
       <workItem from="1560101808405" duration="1576000" />
       <workItem from="1560977925227" duration="15000" />
+      <workItem from="1561218969889" duration="170000" />
+      <workItem from="1561220436381" duration="1784000" />
+      <workItem from="1561234826895" duration="1176000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_tests_py - 2019.06.16 at 23h 17m 01s.xml">
-      <configuration name="Unittests in tests.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_tests_py_(1) - 2019.06.16 at 23h 17m 45s.xml">
-      <configuration name="Unittests in tests.py (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_tests_py_(1) - 2019.06.16 at 23h 19m 52s.xml">
-      <configuration name="Unittests in tests.py (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_tests_py - 2019.06.22 at 15h 44m 33s.xml">
-      <configuration name="Unittests in tests.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_tests_py - 2019.06.22 at 15h 45m 47s.xml">
-      <configuration name="Unittests in tests.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_tests_Test_test_xml_api - 2019.06.22 at 15h 46m 25s.xml">
+    <history-entry file="Unittests_for_tests_Test_test_xml_api - 2019.06.22 at 19h 16m 55s.xml">
       <configuration name="Unittests for tests.Test.test_xml_api" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_tests_Test_test_json_api - 2019.06.22 at 15h 46m 39s.xml">
+    <history-entry file="Unittests_for_tests_Test_test_xml_api - 2019.06.22 at 19h 24m 10s.xml">
+      <configuration name="Unittests for tests.Test.test_xml_api" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_tests_Test_test_json_api - 2019.06.22 at 19h 24m 18s.xml">
       <configuration name="Unittests for tests.Test.test_json_api" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_tests_Test_test_json_api_uah - 2019.06.22 at 15h 46m 47s.xml">
-      <configuration name="Unittests for tests.Test.test_json_api_uah" configurationId="tests" />
+    <history-entry file="Unittests_for_tests_Test_test_json_api - 2019.06.22 at 19h 28m 23s.xml">
+      <configuration name="Unittests for tests.Test.test_json_api" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_tests_Test_test_xml_api - 2019.06.22 at 15h 48m 29s.xml">
-      <configuration name="Unittests for tests.Test.test_xml_api" configurationId="tests" />
+    <history-entry file="Unittests_in_tests_py - 2019.06.22 at 19h 39m 14s.xml">
+      <configuration name="Unittests in tests.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_tests_Test_test_json_api_uah - 2019.06.22 at 15h 48m 48s.xml">
-      <configuration name="Unittests for tests.Test.test_json_api_uah" configurationId="tests" />
+    <history-entry file="Unittests_in_tests_py - 2019.06.22 at 20h 47m 48s.xml">
+      <configuration name="Unittests in tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests_py - 2019.06.22 at 21h 14m 25s.xml">
+      <configuration name="Unittests in tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_tests_Test_test_html_xrates - 2019.06.22 at 22h 21m 43s.xml">
+      <configuration name="Unittests for tests.Test.test_html_xrates" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_tests_Test_test_html_xrates - 2019.06.22 at 22h 22m 45s.xml">
+      <configuration name="Unittests for tests.Test.test_html_xrates" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_tests_Test_test_html_xrates - 2019.06.22 at 22h 24m 59s.xml">
+      <configuration name="Unittests for tests.Test.test_html_xrates" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13785000" />
+    <option name="totallyTimeSpent" value="16915000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -447,12 +462,12 @@
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12404372" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18087432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32824427" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978142" visible="true" weight="0.39476553" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4975097" weight="0.33369684" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -462,7 +477,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.6259542" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.3293348" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49778762" weight="0.32715377" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5021858" side_tool="true" weight="0.16902944" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50249034" side_tool="true" weight="0.39476553" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3293348" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -470,15 +485,15 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="R Graphics" order="4" weight="0.32982844" />
       <window_info anchor="right" id="R Packages" order="5" weight="0.32982844" />
-      <window_info anchor="right" id="Database" order="6" weight="0.17432208" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.17432208" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12295082" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18087432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32848838" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978142" weight="0.39476553" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32824427" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4975097" weight="0.2955289" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -487,8 +502,8 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.6259542" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.3293348" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49778762" visible="true" weight="0.32715377" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5021858" side_tool="true" weight="0.16902944" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49778762" weight="0.32715377" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50249034" side_tool="true" weight="0.39476553" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3293348" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -496,7 +511,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="R Graphics" order="4" weight="0.32982844" />
       <window_info anchor="right" id="R Packages" order="5" weight="0.32982844" />
-      <window_info anchor="right" id="Database" order="6" weight="0.17432208" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.17432208" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,240 +558,378 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/itvdn_course$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1561220637474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson10" />
     <SUITE FILE_PATH="coverage/itvdn_course$Unittests_for_tests_Test_test_cryptonator_uah.coverage" NAME="Unittests for tests.Test.test_cryptonator_uah Coverage Results" MODIFIED="1560101955617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson7" />
     <SUITE FILE_PATH="coverage/itvdn_course$Unittests_for_tests_Test_test_privat.coverage" NAME="Unittests for tests.Test.test_privat Coverage Results" MODIFIED="1559274616085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson5" />
     <SUITE FILE_PATH="coverage/itvdn_course$log_example.coverage" NAME="log_example Coverage Results" MODIFIED="1559072070996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/itvdn_course$test_api.coverage" NAME="test_api Coverage Results" MODIFIED="1559072315861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson4" />
     <SUITE FILE_PATH="coverage/itvdn_course$Unittests_for_tests_Test_test_api_error.coverage" NAME="Unittests for tests.Test.test_api_error Coverage Results" MODIFIED="1560102022997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson7" />
     <SUITE FILE_PATH="coverage/itvdn_course$Unittests_for_tests_Test_test_cdr.coverage" NAME="Unittests for tests.Test.test_cdr Coverage Results" MODIFIED="1560102152356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson7" />
-    <SUITE FILE_PATH="coverage/itvdn_course$Unittests_in_tests_py.coverage" NAME="Unittests in tests.py Coverage Results" MODIFIED="1560102262608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson7" />
+    <SUITE FILE_PATH="coverage/itvdn_course$Unittests_in_tests_py.coverage" NAME="Unittests in tests.py Coverage Results" MODIFIED="1561221551547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson11" />
     <SUITE FILE_PATH="coverage/itvdn_course$api_privat.coverage" NAME="api_privat Coverage Results" MODIFIED="1559072065997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/itvdn_course$Unittests_for_tests_Test_test_main.coverage" NAME="Unittests for tests.Test.test_main Coverage Results" MODIFIED="1559274718662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson5" />
+    <SUITE FILE_PATH="coverage/itvdn_course$Unittests_for_tests_Test_test_xml_api.coverage" NAME="Unittests for tests.Test.test_xml_api Coverage Results" MODIFIED="1561220648980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson10" />
     <SUITE FILE_PATH="coverage/itvdn_course$tests.coverage" NAME="tests Coverage Results" MODIFIED="1559335999871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson5/lesson5_refactored" />
     <SUITE FILE_PATH="coverage/itvdn_course$privat_api.coverage" NAME="privat_api Coverage Results" MODIFIED="1559072299546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson4" />
+    <SUITE FILE_PATH="coverage/itvdn_course$flask_app.coverage" NAME="flask_app Coverage Results" MODIFIED="1561219128858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson10" />
     <SUITE FILE_PATH="coverage/itvdn_course$xml_test.coverage" NAME="xml_test Coverage Results" MODIFIED="1559276441372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson5" />
     <SUITE FILE_PATH="coverage/itvdn_course$Unittests_for_tests_Test_test_privat_currency_error.coverage" NAME="Unittests for tests.Test.test_privat_currency_error Coverage Results" MODIFIED="1560074195053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson7" />
+    <SUITE FILE_PATH="coverage/itvdn_course$Unittests_for_tests_Test_test_json_api.coverage" NAME="Unittests for tests.Test.test_json_api Coverage Results" MODIFIED="1561220901953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson10" />
     <SUITE FILE_PATH="coverage/itvdn_course$Unittests_in_tests_py__1_.coverage" NAME="Unittests in tests.py (1) Coverage Results" MODIFIED="1559336607664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson5/lesson5_refactored" />
+    <SUITE FILE_PATH="coverage/itvdn_course$runserver__1_.coverage" NAME="runserver (1) Coverage Results" MODIFIED="1561221963268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson11" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://8c46f7fd-a22b-49bf-be70-7b23d966a47d/schema/main/table/error_logs" />
-    <entry file="das://8c46f7fd-a22b-49bf-be70-7b23d966a47d/schema/main/table/api_logs" />
-    <entry file="file://$PROJECT_DIR$/lesson6/api/privat_api.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson6/golden-eye.db">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson6/models.py">
+    <entry file="file://$PROJECT_DIR$/lesson8/flask_app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson9/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#0#133#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson6/config.py">
+    <entry file="file://$PROJECT_DIR$/lesson10/app.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson10/runserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson9/config.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson6/api/__init__.py">
+    <entry file="file://$PROJECT_DIR$/lesson9/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson9/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson7/api/__init__.py">
+    <entry file="file://$PROJECT_DIR$/lesson10/flask_app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson7/api/cbr_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson7/api/cryptonatop_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson7/golden-eye.db">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson7/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson7/config.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson9/golden-eye.db" />
-    <entry file="file:///usr/lib/python3.6/xml/etree/ElementTree.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson9/api/cryptonatop_api.py" />
-    <entry file="file://$PROJECT_DIR$/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_privat.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log_example.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.log" />
-    <entry file="file://$PROJECT_DIR$/t.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson9/tests.py" />
-    <entry file="file://$PROJECT_DIR$/lesson9/config.py" />
-    <entry file="file://$PROJECT_DIR$/lesson9/models.py" />
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/peewee.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="5892" column="8" selection-start-line="5892" selection-start-column="8" selection-end-line="5892" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson9/api/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask/templating.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson9/api/cbr_api.py" />
-    <entry file="file://$PROJECT_DIR$/lesson9/api/privat_api.py" />
-    <entry file="file://$PROJECT_DIR$/lesson9/app.log" />
-    <entry file="file://$PROJECT_DIR$/lesson9/templates/xrates.html" />
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/werkzeug/serving.py">
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask/helpers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="986" selection-start-line="986" selection-end-line="986" />
+          <caret line="166" column="4" selection-start-line="166" selection-start-column="4" selection-end-line="166" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson7/models.py">
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/requests/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson9/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/lesson9/views.py" />
-    <entry file="file://$PROJECT_DIR$/lesson9/utils.py" />
-    <entry file="file://$PROJECT_DIR$/lesson9/controllers.py" />
-    <entry file="file://$PROJECT_DIR$/lesson8/flask_app.py" />
-    <entry file="file://$PROJECT_DIR$/lesson9/app.py" />
-    <entry file="file://$PROJECT_DIR$/lesson9/runserver.py" />
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="159" selection-start-line="159" selection-end-line="159" />
+        <state relative-caret-position="196">
+          <caret line="872" column="8" selection-start-line="872" selection-start-column="8" selection-end-line="872" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson10/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+        <state relative-caret-position="818">
+          <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson10/runserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson10/controllers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-457">
+        <state relative-caret-position="218">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
           <folding>
             <element signature="e#0#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson10/flask_app.py">
+    <entry file="file://$PROJECT_DIR$/lesson10/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson9/runserver.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson10/models.py">
+    <entry file="file://$PROJECT_DIR$/lesson10/app.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson10/lesson11/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/lesson11/utils.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson11/flask_app.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson11/config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson11/runserver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib64/python3.6/site-packages/jinja2/loaders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="453" column="13" selection-start-line="453" selection-start-column="13" selection-end-line="453" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/importlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="107" column="4" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson11/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/lesson11/api/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson11/api/cbr_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson11/api/privat_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson11/app.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-1800" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson11/templates/xrates.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson11/api/cryptonatop_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson11/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson11/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="27" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask/globals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="755">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/peewee.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="5873" column="17" selection-start-line="5873" selection-start-column="17" selection-end-line="5873" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson11/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
           <folding>
             <element signature="e#0#133#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson10/utils.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/lesson11/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2479">
+          <caret line="210" lean-forward="true" selection-start-line="210" selection-end-line="210" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson10/views.py">
+    <entry file="file://$PROJECT_DIR$/lesson11/templates/logs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson11/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="e#0#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson5/privat_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson5/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/api/cbr_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson6/api/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://8c46f7fd-a22b-49bf-be70-7b23d966a47d/schema/main/table/xrates" />
+    <entry file="file://$PROJECT_DIR$/lesson7/api/cbr_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson7/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson7/api/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson7/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/test_api.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/pure_sql.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson4/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#111#0" expanded="true" />
           </folding>
         </state>
       </provider>

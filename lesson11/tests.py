@@ -3,9 +3,10 @@ import json
 from unittest.mock import patch
 import requests
 
-import lesson10.models as models
-import lesson10.api as api
+import lesson11.models as models
+import lesson11.api as api
 import xmltodict
+import xml.etree.ElementTree as ET
 
 def get_privat_response(*args, **kwds):
     print("get_privat_response")
@@ -92,7 +93,7 @@ class Test(unittest.TestCase):
         self.assertEqual(api_log.request_url, "https://api.privatbank.ua/p24api/pubinfo?exchange&json&coursid=11")
 
     @unittest.skip("skip")
-    @patch('lesson10.api._Api._send', new=get_privat_response)
+    @patch('lesson11.api._Api._send', new=get_privat_response)
     def test_privat_mock(self):
         xrate = models.XRate.get(id=1)
         updated_before = xrate.updated
@@ -194,6 +195,19 @@ class Test(unittest.TestCase):
         json_rates = r.json()
         self.assertIsInstance(json_rates, list)
         self.assertEqual(len(json_rates), 2)
+
+    def test_html_xrates(self):
+        r = requests.get("http://localhost:5000/xrates")
+        print(r.text[:50])
+        self.assertTrue(r.ok)
+        self.assertIn('<table border="1">', r.text)
+        root = ET.fromstring(r.text)
+        body = root.find("body")
+        self.assertIsNotNone(body)
+        table = body.find("table")
+        self.assertIsNotNone(table)
+        rows = table.findall("tr")
+        self.assertIsNotNone(len(rows), 5)
 
     if __name__ == '__main__':
         unittest.main()
